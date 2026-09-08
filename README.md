@@ -24,7 +24,7 @@ Recreación de la página web de **Covirán** realizada como proyecto académico
 
 ## Cómo ejecutar el proyecto
 
-No requiere instalación ni dependencias. Abre `index.html` en un navegador web.
+No requiere instalación ni dependencias. Abre `index.html` en un navegador web o a través del link de github pages https://sofirr06.github.io/01_Coviran-Website-Recreation/ .
 
 ## Contexto
 
