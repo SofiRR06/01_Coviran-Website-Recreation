@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.margin-r {
+    margin-right: 10px;
+}
+
+.margin-l {
+    margin-left: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.fondo-verde-oscuro {
+    background-color: darkgreen;
+}
+
+.letra-blanca {
+    color: white;
+}
+
+.bustamante {
+    background-image: url(../img/coviran-bustamante.png);
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+img[src="img/fanta.png"] {
+    position: absolute;
+    left: 3000px;
+    transition: left 1s;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bustamante:hover img[src="img/fanta.png"] {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav ul,
+nav li {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav li {
+    float: left;
+    position: relative;
+    list-style-type: none;
+    margin-right: 32px;
+    padding-left: 8px;
+}
+
+
+nav ul li ul {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: white;
+    width: 250px;
+    padding-top: 14px;
+    margin-left: -8px;
+}
+
+
+nav ul li ul li {
+    margin-right: 0;
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+nav ul li ul li:hover a {
+    color: black;
+}
+
+nav ul li ul li a {
+    color: black;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+
+nav ul li a:hover {
+    color: darkgreen;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+
+nav ul li ul li:hover {
+    background-color: gainsboro;
+}
+
+.card {
+    box-shadow: 0 0 14px rgb(194, 193, 193);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.border-radius {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+.padding-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fondo-verde-claro {
+    background-color: green;
+}
+
+.barra {
+    margin-top: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px white;
+    text-align: left;
+    width: calc(100% / 4);
+}
+
+.tabla {
+    width: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 10px;
+}
+
+.card:hover::after {
+    opacity: 0.5;
+}
