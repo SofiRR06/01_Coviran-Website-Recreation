@@ -19,7 +19,7 @@ Recreación de la página web de **Covirán** realizada como proyecto académico
 
 ## Captura
 
-![Página principal](docs/screenshot.png)
+![Página principal](docs/screenshot1.png)(docs/screenshot2.png)
 
 ## Cómo ejecutar el proyecto
 
