@@ -1,6 +1,6 @@
-# Covirán Website
+# Coviran Website
 
-Recreación de la página web de **Covirán** realizada como proyecto académico.
+Recreación de la página web de **Coviran** realizada como proyecto académico.
 
 > Proyecto realizado previamente para mi titulación de DAW y publicado posteriormente en GitHub como parte de mi portfolio.
 
